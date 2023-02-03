@@ -5,5 +5,13 @@ module.exports = {
     description: 'My site description',
   },
   pathPrefix: `/docs`,
-  plugins: ['@primer/gatsby-theme-doctocat'],
+  plugins: [
+    {
+      resolve: '@primer/gatsby-theme-doctocat',
+      options: {
+        defaultBranch: 'main',
+        repoRootPath: './content',
+      },
+    },
+  ],
 }
