@@ -13,6 +13,6 @@ jobs:
         with:
           access-token: ${{ secrets.GH_TOKEN }}
           deploy-branch: gh-pages
-          
+          gatsby-args: --prefix-paths
           
           
