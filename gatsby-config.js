@@ -1,10 +1,10 @@
 module.exports = {
+  pathPrefix: '/docs',
   siteMetadata: {
     title: 'Doctocat Template',
     shortName: 'Template',
     description: 'My site description',
   },
-  pathPrefix: `/docs`,
   plugins: [
     {
       resolve: '@primer/gatsby-theme-doctocat',
