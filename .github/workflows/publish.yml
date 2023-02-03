@@ -4,8 +4,11 @@ on:
     branches:
       - master
 
+env:
+  PREFIX_PATHS: true
+
 jobs:
-  build:
+  build:     
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
