@@ -1,9 +1,9 @@
 module.exports = {
-  pathPrefix: '/docs',
+  pathPrefix: 'docs',
   siteMetadata: {
-    title: 'Doctocat Template',
-    shortName: 'Template',
-    description: 'My site description',
+    title: 'Doctocat Template Sample',
+    shortName: 'kzu',
+    description: 'My kzu blog description',
   },
   plugins: [
     {
