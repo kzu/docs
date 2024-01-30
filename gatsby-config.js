@@ -1,5 +1,4 @@
 module.exports = {
-  pathPrefix: 'docs',
   siteMetadata: {
     title: 'Doctocat Template Sample',
     shortName: 'kzu',
