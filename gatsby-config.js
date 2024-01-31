@@ -8,7 +8,7 @@ module.exports = {
     {
       resolve: '@primer/gatsby-theme-doctocat',
       options: {
-        defaultBranch: 'master',
+        defaultBranch: 'main',
         repoRootPath: './content',
       },
     },
