@@ -1,6 +1,8 @@
 name: publish
 on:
   workflow_dispatch:
+  pull_request:
+    types: [opened, synchronize, reopened]
   push:
     branches:
       - main
@@ -21,5 +23,6 @@ jobs:
           access-token: ${{ secrets.GH_TOKEN }}
           deploy-branch: gh-pages
           gatsby-args: --prefix-paths
+          skip-publish: ${{ github.event_name == 'pull_request' && 'true' || 'false' }}
           
           
