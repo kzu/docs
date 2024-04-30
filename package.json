@@ -14,7 +14,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@babel/plugin-transform-logical-assignment-operators": "^7.24.1",
+    "@babel/plugin-proposal-logical-assignment-operators": "^7.20.7",
     "babel-preset-gatsby": "^3.13.2"
   }  
 }
