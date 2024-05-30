@@ -5,3 +5,5 @@
   children:
     - title: Page 2
       url: /example/page-2
+    - title: Page 3
+      url: /example/page-3
